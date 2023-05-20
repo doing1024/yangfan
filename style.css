@@ -51,3 +51,9 @@ body {
     background-color: #234fff;
     color: white;
   }
+  .box {
+    width: 200px;
+    height: 100px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); /* 设置阴影 */
+    border-radius: 10px; /* 设置圆角 */
+  }
