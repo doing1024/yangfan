@@ -54,6 +54,7 @@ body {
   .box {
     width: 80vw;
     height: 100px;
+    position: absolute;
     left: 10vw;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); /* 设置阴影 */
     border-radius: 10px; /* 设置圆角 */
