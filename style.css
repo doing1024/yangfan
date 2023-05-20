@@ -58,11 +58,6 @@ body {
       border-top: none;
     }
   }
-  
-  /* iframe */
-  .iframe {
-    display: none;
-    width: 100%;
-    height: 500px;
-    border: none;
+  .header{
+    display: flex;
   }
