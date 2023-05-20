@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>扬帆中队</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>扬帆中队</h1>
+      <nav>
+        <ul>
+          <li><a id="home-btn" href="index.html">首页</a></li>
+          <li><a id="about-btn" href="about.html">关于</a></li>
+          <li><a id="members-btn" href="members.html">成员</a></li>
+          <li><a id="works-btn" href="works.html">作品</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <div class="content">
+        <h1>对不起，可能来了一场暴风，把网页吹跑了</h1>
+        <button id="back-btn">返回</button>
+
+        <script>
+            const backBtn = document.getElementById('back-btn');
+            backBtn.addEventListener('click', () => {
+            history.back();
+            });
+        </script>
+    </div>
+  </body>
+</html>
